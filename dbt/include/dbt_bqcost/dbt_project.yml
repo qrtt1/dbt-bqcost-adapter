@@ -1,4 +1,4 @@
-name: dbt_dbt_bqcost
+name: dbt_bqcost
 version: 1.3.0
 config-version: 2
 
