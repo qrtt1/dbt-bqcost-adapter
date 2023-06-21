@@ -16,8 +16,5 @@ setup(
     url="https://github.com/qrtt1/dbt-bqcost-adapter",
     packages=find_namespace_packages(include=["dbt", "dbt.*"]),
     include_package_data=True,
-    install_requires=[
-        "dbt-core",
-        "dbt-bigquery"
-    ],
+    install_requires=["dbt-core", "dbt-bigquery"],
 )

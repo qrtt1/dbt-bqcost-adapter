@@ -55,6 +55,7 @@ class Patched:
                 pass
 
             import atexit
+
             atexit.register(dump_at_exit)
 
         self.usages.append(self.to_dict(response))
