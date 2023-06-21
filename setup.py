@@ -4,7 +4,7 @@ from setuptools import find_namespace_packages, setup
 package_name = "dbt-bqcost"
 # make sure this always matches dbt/adapters/{adapter}/__version__.py
 package_version = "1.3.0"
-description = """The dbt_bqcost adapter plugin for dbt"""
+description = """The dbt-bigquery-cost adapter plugin for dbt"""
 
 setup(
     name=package_name,
@@ -17,6 +17,7 @@ setup(
     packages=find_namespace_packages(include=["dbt", "dbt.*"]),
     include_package_data=True,
     install_requires=[
-        "dbt-core~=1.3.0.",
+        "dbt-core",
+        "dbt-bigquery"
     ],
 )
