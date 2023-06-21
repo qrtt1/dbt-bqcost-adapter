@@ -1,8 +1,6 @@
-
 from dbt.adapters.sql import SQLAdapter as adapter_cls
 
 from dbt.adapters.dbt_bqcost import dbt_bqcostConnectionManager
-
 
 
 class dbt_bqcostAdapter(adapter_cls):
@@ -19,4 +17,5 @@ class dbt_bqcostAdapter(adapter_cls):
         """
         return "datenow()"
 
- # may require more build out to make more user friendly to confer with team and community.
+
+# may require more build out to make more user friendly to confer with team and community.
